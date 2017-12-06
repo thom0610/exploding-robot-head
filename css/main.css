@@ -41,6 +41,7 @@ body {
   width: 125px;
   position: relative;
   z-index: 10;
+  display: inline-block;
 }
 
 .robot-head-right {
