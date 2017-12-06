@@ -23,28 +23,22 @@ body {
   margin: 0 auto;
   display: block;
   text-align: center;
+  position: relative;
 }
 
 .robot-body {
   width: 320px;
-  position: absolute;
 }
 
 .robot-brain {
   width: 46px;
-  position: relative;
-  transform: translate(-50%, -50%);
-  left: 50%;
+  position: absolute;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  position: relative;
+  position: absolute;
   z-index: 10;
   display: inline-block;
-}
-
-.robot-head-right {
-  float: right;
 }
