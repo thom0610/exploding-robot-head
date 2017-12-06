@@ -15,7 +15,6 @@ body {
 
 .banner {
   background-color: #2b3851;
-  padding: .5rem;
 }
 
 .robot {
@@ -28,6 +27,7 @@ body {
 
 .robot-body {
   width: 320px;
+  top: auto;
 }
 
 .robot-brain {
@@ -40,5 +40,4 @@ body {
   width: 125px;
   position: absolute;
   z-index: 10;
-  display: inline-block;
 }
