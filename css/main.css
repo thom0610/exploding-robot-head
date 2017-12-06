@@ -27,16 +27,26 @@ body {
 .robot-body {
   width: 320px;
   position: absolute;
-
 }
 
 .robot-brain {
   width: 46px;
   position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: relative;
+  z-index: 10;
+}
+
+.robot-head-right {
+  float:right;
+}
+
+.robot-head-left {
+  float: left;
 }
