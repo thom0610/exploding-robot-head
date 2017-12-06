@@ -23,16 +23,17 @@ body {
   display: block;
   text-align: center;
   position: relative;
+  top: 7px;
 }
 
 .robot-body {
   width: 320px;
-  top: auto;
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
+  bottom: 115px;
 }
 
 .robot-head-right,
