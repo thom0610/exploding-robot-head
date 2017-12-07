@@ -23,7 +23,7 @@ body {
   display: block;
   text-align: center;
   position: relative;
-  top: 7px;
+  padding-top: 3rem;
 }
 
 .robot-body {
@@ -34,6 +34,8 @@ body {
   width: 46px;
   position: absolute;
   bottom: 115px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-head-right,
@@ -41,4 +43,7 @@ body {
   width: 125px;
   position: absolute;
   z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25%;
 }
